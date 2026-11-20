@@ -7,4 +7,4 @@ exec odoo \
   --workers=0 --max-cron-threads=1 \
   --limit-memory-soft=400000000 --limit-memory-hard=480000000 \
   --proxy-mode --without-demo=all \
-  "$@"
+  -i base "$@"
